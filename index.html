@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karlos Portillo</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/modal.css">
+    <link rel="stylesheet" type="text/css" href="./styles/menu.css">    
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/scripts.js"></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1>Karlos Portillo - Full Stack</h1>
+    </header>
+    <nav id="primary">
+        <ul>
+            <li>
+                <h1>Portada</h1>
+                <a class="nav-portada" href="#portada">View</a>                
+            </li>
+            <li>
+                <h1>Quien Soy</h1>
+                <a class="nav-quien-soy" href="#quien-soy">View</a>
+            </li>
+            <li>
+                <h1>Estudios</h1>
+                <a class="nav-estudios" href="#estudios">View</a>
+            </li>
+            <li>
+                <h1>Experiencia</h1>
+                <a class="nav-experiencia" href="#experiencia">View</a>
+            </li>
+            <li>
+                <h1>Sobre Mi</h1>
+                <a class="nav-about-me" href="#about-me">View</a>
+            </li>
+            <li>
+                <h1>Conctacto</h1>
+                <a class="nav-contacto" href="#contacto">View</a>
+            </li>
+            <li>
+                <h1>Intereses</h1>
+                <a class="nav-aptitudes" href="#aptitudes">View</a>
+            </li>
+        </ul>
+    </nav>
+          
+    <main>
+        <section class="portada" id="portada">          
+            <div class="caption">
+                <span class="border" >Never think that is too late to do something that you want.</span>
+            </div>
+        </section>
+        <section id="quien-soy">
+            <div class="separador">
+                <h2>Quien soy</h2>
+            </div>           
+            <div id="quien-soy-flex">
+                <article class="kp-info">                                    
+                    <figure>
+                        <img class="kp-img" src="./images/kp.jpg" alt="Karlos Portillo">                    
+                    </figure>
+
+                    <p><strong>Karlos Portillo</strong> se define como un soñador empedernido, un luchador de mil batallas. La 
+                    vida me ha enseñado que solo el trabajo duro trae frutos, y es por eso que este video me parece tan acertado,
+                    hay batallas que quizás no debas o quieras luchar pero por dentro sabes que tienes que hacerlo, 
+                    curiosamente el resultado siempre es bueno: o vences o te fortaleces.
+                    </p>        
+                    <p>Del lado profesional soy un apasionado por las nuevas tecnologías con grandes deseos de aprender y 
+                    desarrollarse en un ambiente competitivo y estimulante. Con más de 10 años de experiencia 
+                    en entornos informáticos, acostumbrado a trabajar en equipo en pos de objetivos claros dando 
+                    lo mejor para que la meta sea cumplida. </p>
+                    <p> Con capacidad de adaptación y mejora continua en los diferentes aspectos de la vida, 
+                    apasionado por los deportes en especial el baloncesto tratando de llevar una vida activa 
+                    y saludable. Me encanta poner especial atención a los detalles y es por eso practico la 
+                    fotografía como hobby.</p>
+                    
+                </article>
+                <div id="rocky-video">                     
+                    <!--<video width="550" height="350" id="rocky-video" controls >
+                        <source src="./videos/rocky_motivacion.mp4" type="video/mp4"> 
+                    </video>-->
+                </div>
+            </div>
+        </section>
+        <section class="estudios" id="estudios">                      
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Estudios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="negrita">KeepCoding Spain</p>
+                            <p>Master Full-Stack Developer, 2017 - Actualidad</p>
+                        </td>                                         
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">CESTE, Escuela Internacional de Negocios (Centro Universitario)</p>
+                            <p>Executive MBA, 2008 - 2010</p>
+                        </td>                            
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">Universidad Don Bosco</p>
+                            <p>Ingeniero en Ciencias de la Computación, Ingeniería de software, 1997 - 2002</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>         
+        </section>
+        
+       <section id="experiencia">
+           <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Experiencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="negrita">Programador Senior at Hiberus Tecnología</p>
+                            <p>noviembre de 2015 - Actualidad</p>
+                        </td>          
+                        <td>
+                            <p> Diseño y programación de una herramienta informática que ayude a controlar y centralizar los procesos
+                                realizados en una obra de construcción como lo son el manejo de personal, programación y ejecución de
+                                actividades, manejos de suministros y almacén, etc. Auxiliándose de fuentes de datos diversas como lo son
+                                PRESTO, VICO, NAVISION, SHAREPOINT y el mismo modelo 3D del edificio creado con REVIT.
+                            </p>
+                        </td>                                 
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">Consultor TI at Grupo AutoFacil</p>
+                            <p>septiembre de 2012 - julio de 2015</p>
+                        </td>         
+                        <td>
+                            <p> Análisis y desarrollo de las aplicaciones informáticas que apoyen los procesos de la empresa. Apoyo en la
+                                implantación de los sistemas en las nuevas oficinas abiertas en Colombia.
+                            </p>
+                        </td>                    
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">Jefe de gestión de proyecto</p>
+                            <p>febrero de 2010 - enero de 2011</p>
+                        </td>
+                        <td>
+                            <p> Administración de los sistemas informáticos y la base de datos en SQL Server. Análisis estratégico de las
+                                soluciones informáticas para las necesidades de la empresa.
+                            </p>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">Prácticas Desarrollo Web at Gecco Media, S.L.</p>
+                            <p>noviembre de 2008 - diciembre de 2009</p>
+                        </td>        
+                        <td>
+                            <p> Programación y desarrollo de sitios web utilizando PHP, HTML, CSS, XML, MySQL.
+                            </p>
+                        </td>                     
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">Desarrollador jefe de software at Grupo AutoFacil</p>
+                            <p>mayo de 2006 - septiembre de 2008</p>
+                        </td>     
+                        <td>
+                            <p> Apoyo a la alta gerencia en la toma de decisiones para la parte tecnológica, manteniéndose una relación
+                                estrecha con las políticas del negocio.
+                            </p>
+                            <p> Coordinación de proyectos de desarrollo, siguiendo metodologías establecidas para lograr estandarizar la
+                                forma de trabajo de cada uno de los equipos.
+                            </p>
+                            <p> Creación de aplicaciones que se adapten a las necesidades de cada uno de los países donde se encuentre la
+                                empresa, así como la proyección de futuras expansiones.
+                            </p>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="negrita">Programador de software at Grupo AutoFacil</p>
+                            <p>diciembre de 2001 - abril de 2006</p>
+                        </td>
+                        <td>
+                            <p> Analista Programador para la empresa Multinacional AutoFacil S.A. de C.V. del Grupo Excel Automotriz,
+                                con presencia en cuatro países de Centro América (Guatemala, Honduras, Nicaragua y El Salvador)
+                            </p>
+                            <p>
+                                Análisis, Diseño, Programación e Implantación de aplicaciones informáticas para las distintas áreas de
+                                la empresa en cada uno de los países, lo que ha permitido obtener conocimientos variados debido a la
+                                diversidad de necesidades. Creándose sistemas de facturación, atención al cliente, mercadeo, administración
+                                y manejo de pólizas de seguro, estados financieros, entre otros.
+                            </p>
+                        </td> 
+                    </tr>
+                </tbody>
+            </table>                
+        </section>
+        <section class="about-me" id="about-me">                    
+            <div class="about-me-flex">
+                <article class="about-me-text">
+                    <h2>Sobre Mi</h2>
+                    <p>
+                    Soy salvadoreño de nacimiento, siempre con unas ganas locas de viajar y conocer el mundo, esta inquietud me trajo a España 
+                    a estudiar un MBA y por circunstancias de la vida me quedé ya que allí conocí a la que ahora es mi esposa.
+                    Producto de ese amor recientemente llego a nosotros nuestra bella hija Leyre, tiene apenas 8 semanas y es nuestra alegría, el cambio del 
+                    ritmo de vida es brutal, pero todo vale la pena cuando la ves a los ojos y sientes ese amor materializado en una sonrisa.
+                    </p>
+                    <p>
+                        Me gusta mucho mi trabajo, el transformar unas líneas de código en herramientas que simplifican el trabajo de alguien es muy 
+                        gratificante. Hobbies tengo muchos lo que me falta es tiempo jeje, me gusta el cine, la música, practicar deportes en especial 
+                        el baloncesto, aunque ahora me ha dado más por las pesas ya que la rodilla no acompaña para tanto salto.
+                    </p>
+                    <p>
+                        Soy un amante de los detalles, trato de vivir el momento y disfrutar de esas pequeñas cosas de la vida, es por eso que la 
+                        fotografía me encanta. Una fotografía es la forma de inmortalizar un momento, aquel ocaso que nunca volverá a ocurrir, aquella
+                        sonrisa que no será como otra, es por eso que de forma amateur me dedique a capturar momentos a lo largo de mis viajes y experiencias.
+                        Aquí les dejo unas imágenes, si quieres ver más puedes visitar mi galería en <a href="http://www.flickr.com/kportillo" target="_blank" alt="Galería de Fotos">Flickr - Karlos Portillo</a>
+                    </p>
+                </article>
+                <div class="about-me-gallery">                    
+                    <figure>
+                        <img class="gallery" src="./images/debod.jpg" alt="Templo de Debod">
+                        <figcaption class="photo-name">Templo de Debod - Madrid</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="./images/puente_piedra.jpg" alt="Puente de Piedra">
+                        <figcaption class="photo-name">Puente de Piedra - Zaragoza</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="./images/puente.jpg" alt="Pont Neuf Sud">
+                        <figcaption class="photo-name">Pont Neuf Sud - Toulouse</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="./images/reflejos.jpg" alt="Nocturna de Amsterdam">
+                        <figcaption class="photo-name">Nocturna de Amsterdam - Amsterdam</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="./images/milan.jpg" alt="Catedral de Milán">
+                        <figcaption class="photo-name">Catedral de Milán - Milán</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="gallery" src="./images/angelo.jpg" alt="">
+                        <figcaption class="photo-name">Castello Sant Angelo - Roma</figcaption>
+                    </figure>
+                </div>
+            </div>            
+        </section>
+        <section id="contacto">
+            <h2>Contáctame!</h2>
+            <div class="row">               
+                <div> 
+                    <div class="form">              
+                        <form name="contacto" method="get" action="" novalidate> 
+                            <div class="form-row">
+                                <label for="nombre">Nombre:</label>
+                                <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
+                                <label for="apellidos">Apellidos:</label>
+                                <input name="apellidos" id="apellidos" type="text" placeholder="Apellido" required>
+                            </div>
+                            <div class="form-row">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="name@company.com" 
+                                    pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9]+\.[A-Za-z0-9\.]+" required>
+                            </div>
+                            <div class="form-row">
+                                <div>¿Cómo me has conocido?</div>
+                                <label for="conocido_por_1">Facebook</label>
+                                <input type="radio" name="conocido_por" id="conocido_por_1" value="Facebook" required>
+
+                                <label for="conocido_por_2">Linkedin</label>
+                                <input type="radio" name="conocido_por" id="conocido_por_2" value="Linkedin" required>
+
+                                <label for="conocido_por_3">MeetUp</label>
+                                <input type="radio" name="conocido_por" id="conocido_por_3" value="MeetUp" required>
+
+                                <label for="conocido_por_4">Otros</label>
+                                <input type="radio" name="conocido_por" id="conocido_por_4" value="Otros" required>
+                                
+                                <div id="otros_div" >                                    
+                                    <input name="otros" id="otros" type="text" placeholder="Dime dónde?" required>                                    
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="### ## ## ##" maxlength="12" pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" required>
+                            </div>                           
+                            <div class="form-row">                                
+                                <textarea rows="10" cols="50" id="comentario" name="comentario" placeholder="Deja tu comentario..."></textarea>
+                            </div>
+                            
+                            <div class="form-row">                      
+                                <button type = "submit" id="enviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aptitudes" id="aptitudes">
+            <div class="aptitudes-flex">
+                <h2>Cuéntame tus intereses:</h2>
+                <div class="aptitudes-form">
+                    <div class="interes_section">
+                        <h3>Añadir Interes</h3>
+                        <form>
+                            <input type="text" id="newInterestName" name="name" placeholder="Nuevo interes..." required >
+                            <br><br>
+                            <button id="createInterest">Agregar</button>
+                        </form>
+                    </div>
+                    <div class="interes_section"> 
+                        <h3>Esto es lo que te gusta:</h3>                                    
+                        <div>
+                            <ul id="interestsContainer">                                
+                            </ul>
+                        </div>
+                    </div>                
+                </div>                 
+            </div>
+        </section>
+        <footer class="footer">
+            Karlos Portillo &copy; 2017
+        </footer>
+    </main>
+
+    <!-- Crear un modal para presentar la galería -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgBig">
+        <div id="caption"></div>
+    </div>
+    <!--Lo pongo acá para probar scripts internos-->
+    <script>
+
+        var modal = document.getElementById('myModal');        
+        var modalImg = document.getElementById("imgBig");
+        var captionText = document.getElementById("caption");
+
+        var imgItems = document.getElementsByClassName("gallery");
+        for (var index = 0; index < imgItems.length; index++) {
+            
+            imgItems[index].addEventListener("click", function(event){                
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            });
+            
+        }
+        
+        // Cerrar el modal
+        var modal_close = document.getElementsByClassName("close")[0];        
+        modal_close.addEventListener("click", function(event){
+            modal.style.display = "none";
+        });
+
+    </script>
+    <script src="./js/form.js"></script>
+    <script src="./js/ajax.js"></script>
+</body>
+ 
+</html>
