@@ -1,0 +1,38 @@
+/* Nav
+*****************************************************************/
+ol, li{
+    list-style: none;
+    padding: 5px;
+}
+nav#primary {
+	z-index: 1;
+	position: fixed;
+	top: 50%;
+	right: 16px;
+	margin-top: -40px;
+}
+nav#primary li {
+	position: relative;
+	height: 20px;
+}
+nav#primary a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	background: transparent url('../images/nav-dot.png') 4px 4px no-repeat;
+}
+nav#primary a:hover, nav#primary a.active {
+	background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
+}
+nav#primary h1 {
+	position: absolute;
+	right: 22px;
+	top: -20px;
+	display: none;
+	padding: 4px 20px 4px 7px;;
+	color: #fff;
+	white-space: nowrap;
+    font-size: 20px;
+	background: transparent url('../images/nav-arrow.png') 100% 50% no-repeat;
+}	
