@@ -30,7 +30,7 @@ for(radio in conocido_por) {
 
 /*Validar que el comentario no exceda las 150 palabras  */
 function validarComentario(){    
-    if (comentarioInput.value.split(" ").length> 150) {
+    if (comentarioInput.value.trim().split(/[\s]+/).length > 150) {
         alert("No puedes sobrepasar las 150 palabras!");
         return false;
     }
